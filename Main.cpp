@@ -7,13 +7,14 @@ using namespace std;
 int main(){
 	
 	string cod, nom, ape, nc, est;
-		int n1, n2, n3, n4, pro;
+		int n1, n2, n3, n4, pro; 
 		char i;
+		
 		
 		system("color F0");
 		
 		do{
-			
+		fflush(stdin);			
 		cout<<"_______________________________________________"<<endl;
 		cout<<"CODIGO DE ESTUDIANTE:    ";
 		getline(cin,cod);
